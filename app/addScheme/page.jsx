@@ -2,6 +2,7 @@
 
 import {useState} from "react";
 import {useRouter} from "next/navigation";
+import UserInfo from "@/components/UserInfo";
 
 export default function AddScheme() {
     const [title, setTitle] = useState("");
