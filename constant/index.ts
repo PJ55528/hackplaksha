@@ -21,73 +21,33 @@ export const NavLinks = [
   
   export const footerLinks = [
     {
-      title: 'For developers',
+      title: 'user',
       links: [
-        'Go Pro!',
-        'Explore development work',
-        'Development blog',
-        'Code podcast',
-        'Open-source projects',
-        'Refer a Friend',
-        'Code of conduct',
+        'Lender',
+        'Borrower',
       ],
     },
     {
-      title: 'Hire developers',
+      title: 'type of loan',
       links: [
-        'Post a job opening',
-        'Post a freelance project',
-        'Search for developers',
+        'What is SI?',
+        'What is CI?',
       ],
     },
     {
-      title: 'Brands',
+      title: 'Profile',
       links: [
-        'Advertise with us',
+        'Ledger',
+        'Debit',
+        'Credit',
       ],
     },
     {
       title: 'Company',
       links: [
         'About',
-        'Careers',
-        'Support',
-        'Media kit',
-        'Testimonials',
-        'API',
         'Terms of service',
         'Privacy policy',
-        'Cookie policy',
       ],
-    },
-    {
-      title: 'Directories',
-      links: [
-        'Development jobs',
-        'Developers for hire',
-        'Freelance developers for hire',
-        'Tags',
-        'Places',
-      ],
-    },
-    {
-      title: 'Development assets',
-      links: [
-        'Code Marketplace',
-        'GitHub Marketplace',
-        'NPM Registry',
-        'Packagephobia',
-      ],
-    },
-    {
-      title: 'Development Resources',
-      links: [
-        'Freelancing',
-        'Development Hiring',
-        'Development Portfolio',
-        'Development Education',
-        'Creative Process',
-        'Development Industry Trends',
-      ],
-    },
-  ];
+    }
+  ]
