@@ -23,7 +23,7 @@ const Footer = () => (
             <div className="flex items-start flex-col">
                 <Image src="/logo-purple.svg" width={116} height={38} alt="logo" />
 
-                <p className="text-start text-sm font-normal mt-5 max-w-xs">
+                <p className="text-start text-sm font-normal mt-5 max-w-full">
                     Flexibble is a new community for people to lend and borrow money from each other. We are a peer-to-peer lending platform that connects people who need money with those who have money to invest.
                 </p>
             </div>

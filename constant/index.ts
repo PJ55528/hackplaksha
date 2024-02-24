@@ -1,5 +1,5 @@
 export const NavLinks = [
-    { href: '/', key: 'Lenders', text: 'Lenders' },
+    { href: 'http://localhost:3000/', key: 'Lenders', text: 'Lenders' },
     { href: '/', key: 'Borrowers', text: 'Borrower' },
   ];
   
