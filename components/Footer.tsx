@@ -24,7 +24,7 @@ const Footer = () => (
                 <Image src="/logo-purple.svg" width={116} height={38} alt="logo" />
 
                 <p className="text-start text-sm font-normal mt-5 max-w-xs">
-                    Flexibble is the world&apos;s leading community for creatives to share, grow, and get hired.
+                    Flexibble is a new community for people to lend and borrow money from each other. We are a peer-to-peer lending platform that connects people who need money with those who have money to invest.
                 </p>
             </div>
             <div className="flex flex-wrap gap-12">

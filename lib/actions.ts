@@ -37,3 +37,19 @@ const makeGraphQLRequest = async (query: string, variables = {}) => {
     throw err;
   }
 };
+
+// Dummy implementation for createUser function
+export function createUser(firstName: string, lastName: string, email: string) {
+    console.log("Creating user with data:", { firstName, lastName, email });
+    // Dummy logic for creating a user
+    return { id: 1, firstName, lastName, email };
+}
+
+// Dummy implementation for getUser function
+export function getUser(userId: string) {
+    console.log("Fetching user with id:", userId);
+    // Dummy logic for fetching a user
+    return { id: userId, username: "dummyUser" };
+}
+
+
