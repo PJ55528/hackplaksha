@@ -1,4 +1,3 @@
-import Footer from '@/components/Footer';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 export const metadata = {
@@ -18,7 +17,6 @@ export default function RootLayout({
         <main>
           {children}
         </main>
-        <Footer />
       </body>
     </html>
   )
