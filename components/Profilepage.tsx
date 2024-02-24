@@ -3,7 +3,6 @@ import Image from 'next/image'
 
 import Link from 'next/link'
 import Button from "./Button";
-import ProjectCard from './ProjectCard';
 
 type Props = {
     user: UserProfile;
@@ -47,26 +46,6 @@ const ProfilePage = ({ user }: Props) => (
                     className='rounded-xl'
                 />
             )}
-       </section>
-
-       <section className="flexStart flex-col lg:mt-28 mt-16 w-full">
-           <p className="w-full text-left text-lg font-semibold">Recent Work</p>
-           
-           <div className="profile_projects">
-                {user?.projects?.edges?.map(
-                    ({ node }: { node: ProjectInterface }) => (
-                        <ProjectCard
-                            key={`${node?.id}`}
-                            id={node?.id}
-                            image={node?.image}
-                            title={node?.title}
-                            name={user.name}
-                            avatarUrl={user.avatarUrl}
-                            userId={user.id}
-                        />
-                    )
-                )}
-            </div>
        </section>
    </section>
 )

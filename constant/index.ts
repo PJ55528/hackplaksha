@@ -21,25 +21,25 @@ export const NavLinks = [
   
   export const footerLinks = [
     {
-      title: 'user',
+      title: 'User',
       links: [
         'Lender',
         'Borrower',
       ],
     },
     {
-      title: 'type of loan',
+      title: 'My profile',
       links: [
-        'What is SI?',
-        'What is CI?',
+        'ledger',
+        'credit',
+        'debit',
       ],
     },
     {
-      title: 'Profile',
+      title: 'Type of loan',
       links: [
-        'Ledger',
-        'Debit',
-        'Credit',
+        'what is SI?',
+        'What is CI?',
       ],
     },
     {
