@@ -30,24 +30,6 @@ const Navbar = async () => {
           ))}
         </ul>
       </div>
-<<<<<<< HEAD
-=======
-
-      <div className='flexCenter gap-4'>
-        {session?.user ? (
-          <>
-            <ProfileMenu session={session} />
-
-            <Link href="/create-project">
-              <Button title='Share work' />
-            </Link>
-          </>
-        ) : (
-          <AuthProviders />
-        )}
-        <Button title="My Profile"/>
-      </div>
->>>>>>> d1a3b81 (Your commit message here)
     </nav>
   );
 };
