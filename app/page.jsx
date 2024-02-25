@@ -4,24 +4,21 @@ import { redirect } from "next/navigation";
 import { authOptions } from "./api/auth/[...nextauth]/route";
 
 import SchemeApplication from "@/components/SchemeApplication"; 
+import SchemesList from "@/components/SchemesList";
 
-
-<<<<<<< HEAD
 export default async function Home() {
   const session = await getServerSession(authOptions);
-=======
-export default function Home() {
-    return (
-    <> 
-    <SchemesList/>
-    <SchemeApplication/>
-    
-    </>
-    );
-}
->>>>>>> Dipti
 
-  if (session) redirect("/addScheme");
+
+  if (session) {
+    return (
+      <> 
+      <SchemesList/>
+      <SchemeApplication/>
+      
+      </>
+      );
+  }
 
   return (
     <main>

@@ -1,9 +1,5 @@
 import connectMongoDB from "@/lib/mongodb";
-<<<<<<< HEAD
 import User from "@/models/user";
-=======
-import User from "@/models/application";
->>>>>>> Dipti
 import NextAuth from "next-auth/next";
 import CredentialsProvider from "next-auth/providers/credentials";
 import bcrypt from "bcryptjs";
