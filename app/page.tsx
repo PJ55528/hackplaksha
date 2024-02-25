@@ -24,25 +24,6 @@ type ProjectSearch = {
     };
   },
 }
-
-<<<<<<< HEAD
-export const dynamic = 'force-dynamic';
-export const dynamicParams = true;
-export const revalidate = 0;
-
-import Image from 'next/image'
- 
-export default function Page() {
-  return (
-    <Image
-      src="/background.jpg"
-      width={500}
-      height={500}
-      alt="Picture of the author"
-    />
-  )
-}
-=======
 import Image from 'next/image';
 
 const Home = async ({ searchParams: { category, endcursor } }: Props) => {
@@ -64,4 +45,3 @@ const Home = async ({ searchParams: { category, endcursor } }: Props) => {
 
 export default Home;
 
->>>>>>> d1a3b81 (Your commit message here)
