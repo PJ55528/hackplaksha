@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
 
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -163,4 +164,22 @@ body {
 /* Profile Projects */
 .profile_projects {
   @apply grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-8 mt-5;
+}
+
+/* Add this CSS at the end of your existing CSS file */
+
+.floatingButton {
+  background: rgba(0, 0, 0, 0.3);
+  color: white;
+  padding: 15px 30px;
+  margin-right: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 20px;
+  font-size: 18px;
+  transition: all 0.3s ease-in-out;
+}
+
+.floatingButton:hover {
+  transform: translateY(-5px); /* Adjust the floating distance as needed */
 }
