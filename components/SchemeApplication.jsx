@@ -18,6 +18,7 @@ export default function SchemeApplication() {
     </>
 }
 */
+"using client";
 
 import Link from "next/link";
 import RemoveBtn from "./RemoveBtn";

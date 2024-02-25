@@ -1,6 +1,10 @@
+"use client";
 
+import {useState} from "react";
+import {useRouter} from "next/navigation";
+import ApplicationForm from "@/components/ApplicationForm"; 
 import SchemeApplication from "@/components/SchemeApplication";
-import ApplicationForm from "@/components/ApplicationForm";
+
 
 export default function Borrower(){
         return (
