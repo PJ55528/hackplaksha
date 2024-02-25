@@ -14,8 +14,6 @@ export default async function Home() {
     return (
       <> 
       <SchemesList/>
-      <SchemeApplication/>
-      
       </>
       );
   }
