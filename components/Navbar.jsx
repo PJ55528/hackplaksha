@@ -10,6 +10,9 @@ export default function Navbar() {
             <Link className="bg-white p-2" href={"/addScheme"}>
                 Add Scheme
             </Link>
+            <Link className="bg-white p-2" href={"/Borrower"}>
+                Borrower Page
+            </Link>
         </nav>
     );
 }
