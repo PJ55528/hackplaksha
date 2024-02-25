@@ -1,5 +1,9 @@
 import UserInfo from "@/components/UserInfo";
 
 export default function Dashboard() {
-  return <UserInfo />;
+  return (
+    <div className="h-screen bg-cover bg-center" style={{ backgroundImage: 'url("/r.png")' }}>
+      <UserInfo />
+    </div>
+  );
 }
