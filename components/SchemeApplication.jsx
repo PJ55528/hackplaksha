@@ -18,7 +18,7 @@ export default function SchemeApplication() {
     </>
 }
 */
-"using client";
+// "using client";
 
 import Link from "next/link";
 import RemoveBtn from "./RemoveBtn";
@@ -29,11 +29,12 @@ const getSchemes = async () => {
         const res = await fetch("http://localhost:3000/api/schemes",{
             cache: "no-store",
         });
+        console.log(res);
 
         if (!res.ok) {
             throw new Error("failed to fetch schemes");
         }
-
+        // console.log(res.json());
         return res.json();
     } catch (error){
         console.log("Error loading schemes: ", error);
@@ -42,6 +43,7 @@ const getSchemes = async () => {
 
 export default async function SchemesList() {
     const {schemes} = await getSchemes();
+    console.log(schemes);
 
     return (
         <>

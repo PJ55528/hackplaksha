@@ -1,6 +1,7 @@
-import connectMongoDB from "../../../libs/mongodb";
-import Scheme from "../../../models/scheme";
+import connectMongoDB from "@/libs/mongodb";
+import Scheme from "C:/Users/Shweta/hackplaksha/models/scheme.js";
 import { NextResponse } from "next/server";
+import User from "C:/Users/Shweta/hackplaksha/models/user.js";
 
 export async function POST(req) {
     const { title, description } = await req.json();

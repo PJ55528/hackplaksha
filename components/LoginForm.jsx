@@ -5,6 +5,7 @@ import { useState } from "react";
 import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 
+
 export default function LoginForm() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -26,8 +27,8 @@ export default function LoginForm() {
         setError("Invalid Credentials");
         return;
       }
-
-      router.replace("dashboard");
+      router.replace("HomePage");
+      // router.replace("dashboard");
     } catch (error) {
       console.log(error);
     }
